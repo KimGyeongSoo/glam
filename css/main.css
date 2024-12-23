@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+
+#wrap{width: 1920px;}
+.inner{width: 1280px; margin: 0 auto;}
+
+/*header*/
+header{height: 150px; position: absolute;}
+header .inner{display: flex; position: absolute; left: 320px;}
+header .inner h1{position: absolute; left: 250px; padding-top: 10px;}
+header .inner .gnb{display: flex; gap: 100px; padding-top: 30px; position: absolute; right: 50px;}
+header .inner .gnb li a{color: #fff; transition: all 0.5s;}
+header .inner .gnb li a:hover {font-weight: bold;}
+
+/*main-visual*/
+#main-visual{height: 820px;}
+
+
+/*search*/
+#search{background-color: #f5f5f5;}
+#search .search-box{height: 200px; display: flex; align-items: center; justify-content: space-between;}
+#search .search-box select{width: 270px; height: 40px;}
+#search .search-box input{width: 270px; height: 40px;}
+#search .search-box button{background-color: #f49528; color: #fff; padding: 10px 40px; border: 0; cursor: pointer;}
+
+
+/*banner1*/
+#banner1{height: 500px; position: relative; }
+#banner1 .ban-txt1 {position: absolute; top: 150px; right: 300px; color: #fff;}
+#banner1 .ban-txt1 p {line-height: 1.8;}
+#banner1 .ban-txt1 p span{display: block; font-size: 50px; padding-bottom: 30px;}
+
+
+/*room*/
+#room{height: 900px;}
+#room .inner {width: 1280px;}
+#room .room-box{display: flex; padding: 80px 0; justify-content: center;}
+#room .room-box p{font-size: 20px; font-weight: bold; padding-left: 5px;}
+#room .room-pic ul{display: flex; justify-content: space-between;}
+#room .room-pic li{width: calc((100% - 80px) / 3);}
+#room .room-pic li a{display: block;}
+
+#room .room-pic li{position: relative;}
+#room .room-pic .reservation{position: absolute; top: 500px; right: 0; padding-top: 10px; color: #f49528; transition: all 0.5s;}
+#room .room-pic h4{font-size: 18px; padding-top: 10px;}
+#room .room-pic p{padding-top: 10px;}
+#room .room-pic p span{display: block;}
+#room .room-pic .reservation:hover{font-weight: bold;}
+#room .room-pic li img{transition: all 0.5s;}
+#room .room-pic li img:hover {opacity: 0.7;}
+
+
+/*map*/
+#map {height: 900px; background-color: #f5f5f5;}
+#map .map-box{display: flex; padding: 80px 0; justify-content: center;}
+#map .map-box p{font-size: 20px; font-weight: bold; padding-left: 5px;}
+
+
+/*facilities*/
+#facilities {height: 1000px; padding-top: 50px;}
+#facilities .fac-box{display: flex; padding: 100px 0; justify-content: center;}
+#facilities .fac-box p{font-size: 20px; font-weight: bold; padding-left: 5px;}
+
+#facilities .fac ul{display: flex; justify-content: space-between;}
+#facilities .fac li img{transition: all 0.5s;}
+#facilities .fac li img:hover {opacity: 0.7;}
+#facilities .fac .fac-txt{display: block; text-align: center; font-size: 20px; padding-top: 20px;}
+#facilities .swiper-pagination-bullet{display: none;}
+
+
+
+/*notice*/
+#notice{height: 700px; padding-top: 100px;}
+#notice .inner{width: 1280px; margin: 0 auto;}
+#notice .inner .n-box{height: 400px; background-color: #f5f5f5; box-shadow: rgba(0, 0, 0, 0.2) 7px 7px 10px; border-radius: 50px; display: flex; justify-content: space-between; padding: 100px;}
+#notice .inner .n-box dl{width: 280px; height: 240px;}
+#notice .inner .n-box dl dt{font-weight: bold; font-style: 20px; border-bottom: 2px solid #333; padding-bottom: 10px;}
+#notice .inner .n-box dl dd{font-size: 14px; border-bottom: 1px dashed #333; padding: 20px 0;}
+#notice .inner .n-box dl dd a{display: inline-block; transition: all 0.5s;}
+#notice .inner .n-box dl dd:nth-child(2){padding-top: 40px;}
+#notice .inner .n-box dl dd:nth-child(4){border-bottom:none}
+
+#notice .inner .n-box dl{position: relative;}
+#notice .inner .n-box dl dt::before{content: ""; display: block; width: 24px; height: 3px; background-color: #f49528; position: absolute; top: 10px; right: 2px; cursor: pointer;}
+#notice .inner .n-box dl dt::after{content: ""; display: block; width: 3px; height: 24px; background-color: #f49528; position: absolute;top: 0; right: 12px; cursor: pointer;}
+
+#notice .inner .n-box dl dd::before{content: ""; display: inline-block; width: 5px; height: 5px; background-color: #f49528; border-radius: 50%; margin-bottom: 4px; margin-right: 15px;}
+
+#notice .inner .n-box dl dd a:hover {font-weight: bold;}
+
+/*banner2*/
+#banner2{height: 500px; position: relative; }
+#banner2 .ban-txt2 {position: absolute; top: 150px; left: 300px; color: #fff;}
+#banner2 .ban-txt2 p {line-height: 1.8;}
+#banner2 .ban-txt2 p span{display: block; font-size: 50px; padding-bottom: 30px;}
+
+
+/*travel*/
+#travel {height: 800px; background-color: #f5f5f5; padding-top: 50px;}
+#travel .travel-box{display: flex; padding: 80px 0; justify-content: center;}
+#travel .travel-box p{font-size: 20px; font-weight: bold; padding-left: 5px;}
+
+#travel .inner .img-box{display: flex; justify-content: space-between;}
+#travel .inner .img-box li{width: 300px; height: 300px; border-radius: 50%; overflow: hidden;}
+#travel .inner .img-box li a{display: block;}
+#travel .inner .img-box li img{transition: all 0.5s;}
+#travel .inner .img-box li a:hover img{opacity: 0.7;}
+
+#travel .inner .txt-box{display: flex; justify-content: space-between;}
+#travel .inner .txt-box div{width: 300px; text-align: center; padding-top: 30px;}
+#travel .inner .txt-box div h4{font-size: 20px;}
+#travel .inner .txt-box div p{padding-top: 20px;}
+
+
+/*banner3*/
+#banner3 {width: 100%; height: 110px;}
+
+
+/*location*/
+#location .inner{width: 1280px; margin: 0 auto;}
+#location {height: 900px; background-color: #f5f5f5;}
+#location .loc-box{display: flex; padding: 80px 0; justify-content: center;}
+#location .loc-box p{font-size: 20px; font-weight: bold; padding-left: 5px;}
+
+
+#location .inner .loc-map{height: 500px;}
+#location .inner > p{text-align: right; padding-top: 20px; line-height: 1.8;}
+#location .inner span{font-weight: bold;}
+
+
+/*footer*/
+footer{width: 100%; background-color: #eee;}
+footer .inner{width: 1280px; position: relative;}
+footer .inner .f-box{display: flex; gap: 50px; height: 300px; align-items: center;}
+footer address span{font-weight: bold; padding: 0 10px;}
+footer .inner .sns{display: flex; gap: 40px; position: absolute; top: 120px; right: 0;}
+footer .inner .sns li a img{transition: all 0.5s;}
+footer .inner .sns li a img:hover {opacity: 0.5;}
+
+.go-top{display: block; width: 80px; height: 80px; border-radius: 50%; background: rgba(0, 0, 0, 0.2) url(../img/gotop.png) no-repeat center; font-size: 0; color: transparent; position: fixed; right: 50px; bottom: 50px;}
+
